@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "devabyte",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

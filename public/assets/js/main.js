@@ -1,5 +1,5 @@
 // ==================================================
-// * Project Name   :  Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template
+// * Project Name   :  Devabyte – IT Solutions & Technology, Business Consulting, Software Company Site Template
 // * File           :  JS Base
 // * Version        :  1.0.0
 // * Author         :  XpressBuddy (https://themeforest.net/user/xpressbuddy/portfolio)
