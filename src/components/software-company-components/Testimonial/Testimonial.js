@@ -64,7 +64,7 @@ const Testimonial = () => {
             <div className="col-lg-4">
                 <div className="deals_winner_customers">
                     <h3 className="title_text">
-                        <mark>3,900+</mark> customers win deals with Techco
+                        <mark>3,900+</mark> customers win deals with Devabyte
                     </h3>
                     <div className="row">
                         <div className="col-6">

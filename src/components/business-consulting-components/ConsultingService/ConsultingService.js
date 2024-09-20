@@ -30,7 +30,7 @@ const ConsultingService = (props) => {
                         <div className="col-lg-4" key={srv}>
                             <div className="iconbox_block">
                                 <div className="iconbox_icon">
-                                    <img src={service.sImg} alt="Techco - Service icon" />
+                                    <img src={service.sImg} alt="Devabyte - Service icon" />
                                 </div>
                                 <div className="iconbox_content">
                                     <h3 className="iconbox_title">

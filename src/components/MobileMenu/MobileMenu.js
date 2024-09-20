@@ -18,7 +18,7 @@ const menus = [
             {
                 id: 12,
                 title: 'Software Company',
-                link: '/home_software_company'
+                link: '/home_it_solutions'
             },
             {
                 id: 13,

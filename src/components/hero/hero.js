@@ -16,7 +16,7 @@ const Hero = () => {
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="it_solution_hero_content" style={{ backgroundImage: `url(${Bg1})` }}>
-                            <div className="heading_focus_text mb-0 d-inline-flex align-items-center">👋 Hi We <span className="badge bg-secondary text-white">Are Techco</span></div>
+                            <div className="heading_focus_text mb-0 d-inline-flex align-items-center">👋 Hi We <span className="badge bg-secondary text-white">Are Devabyte</span></div>
                             <h1>
                                 Grow your Business Organic & IT Solution Technology
                             </h1>
@@ -35,7 +35,7 @@ const Hero = () => {
                                 <li>
                                     <div className="review_short_info">
                                         <div className="d-flex">
-                                            <img src={icon} alt="Techco - Trustpilot Review" />
+                                            <img src={icon} alt="Devabyte - Trustpilot Review" />
                                             <span>4.8</span>
                                         </div>
                                         <div className="review_counter">From <b>200+</b> reviews</div>
@@ -47,7 +47,7 @@ const Hero = () => {
                     <div className="col-lg-5">
                         <ul className="it_solution_hero_images unordered_list">
                             <li>
-                                <img src={heroImg} alt="Techco - IT Solution - Hero" />
+                                <img src={heroImg} alt="Devabyte - IT Solution - Hero" />
                             </li>
                             <li>
                                 <div className="worldwide_clients">
@@ -57,13 +57,13 @@ const Hero = () => {
                                     </p>
                                     <ul className="avatar_group unordered_list">
                                         <li>
-                                            <img src={avatar1} alt="Techco - Avatar" />
+                                            <img src={avatar1} alt="Devabyte - Avatar" />
                                         </li>
                                         <li>
-                                            <img src={avatar2} alt="Techco - Avatar" />
+                                            <img src={avatar2} alt="Devabyte - Avatar" />
                                         </li>
                                         <li>
-                                            <img src={avatar3} alt="Techco - Avatar" />
+                                            <img src={avatar3} alt="Devabyte - Avatar" />
                                         </li>
                                         <li>
                                             5k+

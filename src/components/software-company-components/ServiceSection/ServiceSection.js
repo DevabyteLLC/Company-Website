@@ -31,7 +31,7 @@ const ServiceSection = (props) => {
                         <div className="col-lg-4" key={srv}>
                             <div className="service_block_2">
                                 <div className="service_icon">
-                                    <img src={service.sImg} alt="Techco - Service icon" />
+                                    <img src={service.sImg} alt="Devabyte - Service icon" />
                                 </div>
                                 <h3 className="service_title">
                                     <Link onClick={ClickHandler} to={`/service-single/${service.slug}`}>
@@ -58,19 +58,19 @@ const ServiceSection = (props) => {
             </div>
 
             <div className="decoration_item shape_image_1">
-                <img src={shape1} alt="Techco Shape"/>
+                <img src={shape1} alt="Devabyte Shape"/>
             </div>
             <div className="decoration_item shape_image_2">
-                <img src={shape2} alt="Techco Shape"/>
+                <img src={shape2} alt="Devabyte Shape"/>
             </div>
             <div className="decoration_item shape_image_3">
-                <img src={shape3} alt="Techco Shape"/>
+                <img src={shape3} alt="Devabyte Shape"/>
             </div>
             <div className="decoration_item shape_image_4">
-                <img src={shape4} alt="Techco Shape Angle"/>
+                <img src={shape4} alt="Devabyte Shape Angle"/>
             </div>
             <div className="decoration_item shape_image_5">
-                <img src={shape5} alt="Techco Shape Angle"/>
+                <img src={shape5} alt="Devabyte Shape Angle"/>
             </div>
         </section>
     );

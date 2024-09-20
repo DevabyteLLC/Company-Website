@@ -67,7 +67,7 @@ const ContactForm = (props) => {
                             className="form-control"
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
-                            placeholder="Techco@example.com" />
+                            placeholder="Devabyte@example.com" />
                         {validator.message('email', forms.email, 'required|email')}
                     </div>
                 </div>

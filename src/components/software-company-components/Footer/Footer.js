@@ -75,7 +75,7 @@ const Footer = (props) => {
   return (
     <footer className="site_footer footer_layout_2 section_decoration" style={{ backgroundImage: `url(${Bg})` }}>
       <div className="decoration_item shape_image_1">
-        <img src={icon1} alt="Techco Shape" />
+        <img src={icon1} alt="Devabyte Shape" />
       </div>
       <div className="container">
         <div className="service_pill_carousel swiper">
@@ -210,42 +210,42 @@ const Footer = (props) => {
                 <h3 className="footer_info_title">Expertise</h3>
                 <ul className="icon_list unordered_list_block">
                   <li>
-                    <Link onClick={ClickHandler} to="/home_software_company">
+                    <Link onClick={ClickHandler} to="/home_it_solutions">
                       <span className="icon_list_text">
                         Cloud solutions
                       </span>
                     </Link>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/home_software_company">
+                    <Link onClick={ClickHandler} to="/home_it_solutions">
                       <span className="icon_list_text">
                         Data warehouse
                       </span>
                     </Link>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/home_software_company">
+                    <Link onClick={ClickHandler} to="/home_it_solutions">
                       <span className="icon_list_text">
                         Data management
                       </span>
                     </Link>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/home_software_company">
+                    <Link onClick={ClickHandler} to="/home_it_solutions">
                       <span className="icon_list_text">
                         BI services
                       </span>
                     </Link>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/home_software_company">
+                    <Link onClick={ClickHandler} to="/home_it_solutions">
                       <span className="icon_list_text">
                         Big data
                       </span>
                     </Link>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/home_software_company">
+                    <Link onClick={ClickHandler} to="/home_it_solutions">
                       <span className="icon_list_text">
                         Data science
                       </span>
@@ -266,7 +266,7 @@ const Footer = (props) => {
                     </Link>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/home_software_company">
+                    <Link onClick={ClickHandler} to="/home_it_solutions">
                       <span className="icon_list_text">
                         Banking
                       </span>
@@ -280,7 +280,7 @@ const Footer = (props) => {
                     </Link>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/home_software_company">
+                    <Link onClick={ClickHandler} to="/home_it_solutions">
                       <span className="icon_list_text">
                         Logistics
                       </span>
@@ -307,7 +307,7 @@ const Footer = (props) => {
               <div className="footer_widget pe-lg-3">
                 <h2 className="footer_info_title">Newsletter</h2>
                 <p>
-                  Sign up to Techco weekly newsletter to get the latest updates.
+                  Sign up to Devabyte weekly newsletter to get the latest updates.
                 </p>
                 <form className="footer_newslatter_2" onSubmit={SubmitHandler}>
                   <label htmlFor="footer_mail_input">
@@ -321,22 +321,22 @@ const Footer = (props) => {
 
                 <ul className="social_icons_block unordered_list">
                   <li>
-                    <Link onClick={ClickHandler} to="/home_software_company">
+                    <Link onClick={ClickHandler} to="/home_it_solutions">
                       <i className="fa-brands fa-facebook-f"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/home_software_company">
+                    <Link onClick={ClickHandler} to="/home_it_solutions">
                       <i className="fa-brands fa-twitter"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/home_software_company">
+                    <Link onClick={ClickHandler} to="/home_it_solutions">
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/home_software_company">
+                    <Link onClick={ClickHandler} to="/home_it_solutions">
                       <i className="fa-brands fa-youtube"></i>
                     </Link>
                   </li>
@@ -349,7 +349,7 @@ const Footer = (props) => {
       <div className="footer_bottom" style={{ backgroundImage: `url(${Bg2})` }}>
         <div className="container d-md-flex align-items-md-center justify-content-md-between">
           <p className="copyright_text m-0">
-            Copyright © 2024 Techco, All rights reserved.
+            Copyright © 2024 Devabyte, All rights reserved.
           </p>
           <ul className="icon_list unordered_list">
             <li>

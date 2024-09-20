@@ -32,11 +32,11 @@ const ContactSection = (props) => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="mailto:Techco@gmail.com">
+                                    <a href="mailto:Devabyte@gmail.com">
                                         <span className="icon">
                                             <i className="fa-solid fa-envelope"></i>
                                         </span>
-                                        <span className="text">Techco@gmail.com</span>
+                                        <span className="text">Devabyte@gmail.com</span>
                                     </a>
                                 </li>
                                 <li>
@@ -83,13 +83,13 @@ const ContactSection = (props) => {
                 </div>
             </div>
             <div className="decoration_item shape_image_1">
-                <img src={shape1} alt="Techco Shape" />
+                <img src={shape1} alt="Devabyte Shape" />
             </div>
             <div className="decoration_item shape_image_2">
-                <img src={shape2} alt="Techco Shape" />
+                <img src={shape2} alt="Devabyte Shape" />
             </div>
             <div className="decoration_item shape_image_3">
-                <img src={shape3} alt="Techco Shape" />
+                <img src={shape3} alt="Devabyte Shape" />
             </div>
         </section>
     )

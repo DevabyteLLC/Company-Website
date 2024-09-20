@@ -1,7 +1,7 @@
 {
-  "name": "techco",
+  "name": "devabyte",
   "version": "0.1.0",
-  "homepage": "https://techco-react.xpressbuddy.com",
+  "homepage": "https://devabyte-react.xpressbuddy.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",

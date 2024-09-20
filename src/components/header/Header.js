@@ -57,7 +57,7 @@ const Header = (props) => {
                         <div className="col-xl-3 col-lg-2 col-5">
                             <div className="site_logo">
                                 <Link onClick={ClickHandler} className="site_link" to="/">
-                                    <img src={logo} alt="Site Logo – Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template" />
+                                    <img src={logo} alt="Site Logo – Devabyte – IT Solutions & Technology, Business Consulting, Software Company Site Template" />
                                 </Link>
                                 <div className="badge bg-danger-subtle text-danger">We’re Hiring</div>
                             </div>
@@ -72,7 +72,7 @@ const Header = (props) => {
                                             </Link>
                                             <ul className="dropdown-menu" aria-labelledby="home_submenu">
                                                 <li><Link onClick={ClickHandler} to="/">IT Solution</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/home_software_company">Software Company</Link></li>
+                                                <li><Link onClick={ClickHandler} to="/home_it_solutions">Software Company</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/home_business_consulting">Business Consulting</Link></li>
                                             </ul>
                                         </li>
@@ -95,7 +95,7 @@ const Header = (props) => {
                                                                                 <small className="iconbox_title">About Us</small>
                                                                             </span>
                                                                             <span className="description mb-0">
-                                                                                Learn more about Techco
+                                                                                Learn more about Devabyte
                                                                             </span>
                                                                         </Link>
                                                                     </div>
@@ -245,14 +245,14 @@ const Header = (props) => {
                                                                     </div>
                                                                     <div className="author_box_content">
                                                                         <h3 className="author_name text-white">Maverick Phoenix</h3>
-                                                                        <span className="author_designation text-white">CEO At Techco</span>
+                                                                        <span className="author_designation text-white">CEO At Devabyte</span>
                                                                     </div>
                                                                     <div className="quote_icon">
                                                                         <img src={icon11} alt="Quote Icon" />
                                                                     </div>
                                                                 </div>
                                                                 <p className="mb-0 text-white">
-                                                                    As a CEO at Techco  I have been voice crying in the wilderness,  trying to make requirements clear, use every minute to deliver the  result, and not reinvent the wheel. Here at Techco, I made that possible  for the clients.
+                                                                    As a CEO at Devabyte  I have been voice crying in the wilderness,  trying to make requirements clear, use every minute to deliver the  result, and not reinvent the wheel. Here at Devabyte, I made that possible  for the clients.
                                                                 </p>
                                                             </div>
                                                         </div>

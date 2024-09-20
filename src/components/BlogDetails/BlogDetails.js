@@ -38,7 +38,7 @@ const BlogSingle = (props) => {
         <section className="blog_details_section section_space bg-light">
             <div className="container">
                 <div className="details_item_image">
-                    <img src={blog1} alt="Techco - Blog" />
+                    <img src={blog1} alt="Devabyte - Blog" />
                 </div>
                 <div className="post_meta_wrap mb-4">
                     <ul className="category_btns_group unordered_list">
@@ -56,7 +56,7 @@ const BlogSingle = (props) => {
                     {BlogDetails.title}
                 </h2>
                 <p>
-                    Delve into the inner workings of IT solutions with Techco's esteemed thought leaders. With unparalleled expertise and a wealth of experience, our thought leaders provide invaluable insights into the ever-evolving landscape of technology.
+                    Delve into the inner workings of IT solutions with Devabyte's esteemed thought leaders. With unparalleled expertise and a wealth of experience, our thought leaders provide invaluable insights into the ever-evolving landscape of technology.
                 </p>
                 <div className="row align-items-center">
                     <div className="col-md-6">
@@ -110,30 +110,30 @@ const BlogSingle = (props) => {
                             <div className="row mb-4">
                                 <div className="col-md-6 col-sm-6">
                                     <div className="details_item_image m-0">
-                                        <img src={blog2} alt="Techco - Blog" />
+                                        <img src={blog2} alt="Devabyte - Blog" />
                                     </div>
                                 </div>
                                 <div className="col-md-6 col-sm-6">
                                     <div className="details_item_image m-0">
-                                        <img src={blog3} alt="Techco - Blog" />
+                                        <img src={blog3} alt="Devabyte - Blog" />
                                     </div>
                                 </div>
                             </div>
                             <p>
-                                Gain exclusive insights into the world of IT solutions with Techco's distinguished thought leaders. With years of experience and a deep understanding of industry trends, our thought leaders offer invaluable perspectives that illuminate the path to technological excellence. From emerging technologies to innovative strategies, they provide unique insights that inform and inspire. Join us as we delve into the inner workings of IT solutions, exploring the challenges.
+                                Gain exclusive insights into the world of IT solutions with Devabyte's distinguished thought leaders. With years of experience and a deep understanding of industry trends, our thought leaders offer invaluable perspectives that illuminate the path to technological excellence. From emerging technologies to innovative strategies, they provide unique insights that inform and inspire. Join us as we delve into the inner workings of IT solutions, exploring the challenges.
                             </p>
                             <p>
-                                Embark on an illuminating journey into the world of IT solutions with Techco's esteemed thought leaders. Delve deep into the inner workings of technology as our seasoned experts share their wealth of knowledge and experience. With a finger on the pulse of industry trends and a keen eye for innovation, our thought leaders offer unparalleled insights that illuminate the path
+                                Embark on an illuminating journey into the world of IT solutions with Devabyte's esteemed thought leaders. Delve deep into the inner workings of technology as our seasoned experts share their wealth of knowledge and experience. With a finger on the pulse of industry trends and a keen eye for innovation, our thought leaders offer unparalleled insights that illuminate the path
                             </p>
 
                             <h3 className="details_item_info_title">Sample Heading</h3>
                             <p>
-                                they provide a comprehensive and in-depth analysis that goes beyond surface-level . Join us as we uncover the secrets of IT solutions, guided by the wisdom and expertise of Techco's thought leaders. Prepare to be inspired, informed, and empowered to navigate the ever- landscape of technology with confidence and clarity. you'll gain access to unparalleled expertise and discover new possibilities for success in the ever-evolving world of technology.
+                                they provide a comprehensive and in-depth analysis that goes beyond surface-level . Join us as we uncover the secrets of IT solutions, guided by the wisdom and expertise of Devabyte's thought leaders. Prepare to be inspired, informed, and empowered to navigate the ever- landscape of technology with confidence and clarity. you'll gain access to unparalleled expertise and discover new possibilities for success in the ever-evolving world of technology.
                             </p>
                             <div className="row align-items-center mb-5">
                                 <div className="col-md-6">
                                     <div className="details_item_image m-0">
-                                        <img src={blog4} alt="Techco - Blog" />
+                                        <img src={blog4} alt="Devabyte - Blog" />
                                     </div>
                                 </div>
                                 <div className="col-md-6">
@@ -249,7 +249,7 @@ const BlogSingle = (props) => {
 
                             <div className="post_author_box">
                                 <div className="author_image">
-                                    <img src={author} alt="Techco - Blog Author" />
+                                    <img src={author} alt="Devabyte - Blog Author" />
                                 </div>
                                 <div className="author_content">
                                     <h3 className="author_name">About Anderson</h3>
@@ -286,7 +286,7 @@ const BlogSingle = (props) => {
                                 <Link onClick={ClickHandler} to={'/blog'}>
                                     <i className="fa-regular fa-arrow-left-long"></i>
                                     <span>
-                                        <strong>Exploring IT Solutions with Techco</strong>
+                                        <strong>Exploring IT Solutions with Devabyte</strong>
                                         <small>Dec 24, 2024</small>
                                     </span>
                                 </Link>
@@ -295,7 +295,7 @@ const BlogSingle = (props) => {
                                 </Link>
                                 <Link onClick={ClickHandler} to={'/blog'}>
                                     <span>
-                                        <strong>Exploring IT Solutions with Techco</strong>
+                                        <strong>Exploring IT Solutions with Devabyte</strong>
                                         <small>Dec 24, 2024</small>
                                     </span>
                                     <i className="fa-regular fa-arrow-right-long"></i>
@@ -310,13 +310,13 @@ const BlogSingle = (props) => {
                                     <li>
                                         <div className="comment_item">
                                             <div className="comment_author_thumbnail">
-                                                <img src={author2} alt="Techco - Comment Author Avatar" />
+                                                <img src={author2} alt="Devabyte - Comment Author Avatar" />
                                             </div>
                                             <div className="comment_author_content">
                                                 <h4 className="comment_author_name">John Smith</h4>
                                                 <div className="comment_time">Dec 24, 2024 at 10:21am</div>
                                                 <p className="mb-0">
-                                                    "Working with Techco has been a game-changer. Their innovative IT solutions boosted our efficiency tenfold. Highly recommend!"
+                                                    "Working with Devabyte has been a game-changer. Their innovative IT solutions boosted our efficiency tenfold. Highly recommend!"
                                                 </p>
                                                 <Link onClick={ClickHandler} to={'/blog'} className="comment_reply_btn">Reply</Link>
                                             </div>
@@ -325,13 +325,13 @@ const BlogSingle = (props) => {
                                             <li>
                                                 <div className="comment_item">
                                                     <div className="comment_author_thumbnail">
-                                                        <img src={author3} alt="Techco - Comment Author Avatar" />
+                                                        <img src={author3} alt="Devabyte - Comment Author Avatar" />
                                                     </div>
                                                     <div className="comment_author_content">
                                                         <h4 className="comment_author_name">Daniel Garcia</h4>
                                                         <div className="comment_time">Dec 24, 2024 at 10:21am</div>
                                                         <p className="mb-0">
-                                                            "Our experience with Techco has been exceptional. Their commitment to customer satisfaction stands out. Grateful for their partnership."
+                                                            "Our experience with Devabyte has been exceptional. Their commitment to customer satisfaction stands out. Grateful for their partnership."
                                                         </p>
                                                         <Link onClick={ClickHandler} to={'/blog'} className="comment_reply_btn">Reply</Link>
                                                     </div>
@@ -340,13 +340,13 @@ const BlogSingle = (props) => {
                                             <li>
                                                 <div className="comment_item">
                                                     <div className="comment_author_thumbnail">
-                                                        <img src={author2} alt="Techco - Comment Author Avatar" />
+                                                        <img src={author2} alt="Devabyte - Comment Author Avatar" />
                                                     </div>
                                                     <div className="comment_author_content">
                                                         <h4 className="comment_author_name">John Smith</h4>
                                                         <div className="comment_time">Dec 24, 2024 at 10:21am</div>
                                                         <p className="mb-0">
-                                                            "Working with Techco has been a game-changer. Their innovative IT solutions boosted our efficiency tenfold. Highly recommend!"
+                                                            "Working with Devabyte has been a game-changer. Their innovative IT solutions boosted our efficiency tenfold. Highly recommend!"
                                                         </p>
                                                         <Link onClick={ClickHandler} to={'/blog'} className="comment_reply_btn">Reply</Link>
                                                     </div>
@@ -357,13 +357,13 @@ const BlogSingle = (props) => {
                                     <li>
                                         <div className="comment_item">
                                             <div className="comment_author_thumbnail">
-                                                <img src={author4} alt="Techco - Comment Author Avatar" />
+                                                <img src={author4} alt="Devabyte - Comment Author Avatar" />
                                             </div>
                                             <div className="comment_author_content">
                                                 <h4 className="comment_author_name">John Smith</h4>
                                                 <div className="comment_time">Dec 24, 2024 at 10:21am</div>
                                                 <p className="mb-0">
-                                                    "Working with Techco has been a game-changer. Their innovative IT solutions boosted our efficiency tenfold. Highly recommend!"
+                                                    "Working with Devabyte has been a game-changer. Their innovative IT solutions boosted our efficiency tenfold. Highly recommend!"
                                                 </p>
                                                 <Link onClick={ClickHandler} to={'/blog'} className="comment_reply_btn">Reply</Link>
                                             </div>
@@ -389,7 +389,7 @@ const BlogSingle = (props) => {
                                     <div className="col-md-6">
                                         <div className="form-group">
                                             <label className="input_title" htmlFor="input_email">Your Email <sup className="text-primary">*</sup></label>
-                                            <input id="input_email" className="form-control" type="email" name="email" placeholder="Techco@example.com" required />
+                                            <input id="input_email" className="form-control" type="email" name="email" placeholder="Devabyte@example.com" required />
                                         </div>
                                     </div>
                                     <div className="col-12">

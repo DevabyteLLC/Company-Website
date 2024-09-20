@@ -13,35 +13,35 @@ import { Link } from "react-router-dom";
 const testimonial = [
     {
         id: '01',
-        Des: "Working with Techco was a game-changer for our business. Their  tailored solutions and dedicated support propelled us to new heights",
+        Des: "Working with Devabyte was a game-changer for our business. Their  tailored solutions and dedicated support propelled us to new heights",
         Title: 'Sarah Johnson',
         sub: 'Board Member, UNIQA',
         avatar: avatar1,
     },
     {
         id: '02',
-        Des: "Working with Techco was a game-changer for our business. Their  tailored solutions and dedicated support propelled us to new heights",
+        Des: "Working with Devabyte was a game-changer for our business. Their  tailored solutions and dedicated support propelled us to new heights",
         Title: 'Adam Pedro',
         sub: 'Board Member, UNIQA',
         avatar: avatar2,
     },
     {
         id: '03',
-        Des: "Working with Techco was a game-changer for our business. Their  tailored solutions and dedicated support propelled us to new heights",
+        Des: "Working with Devabyte was a game-changer for our business. Their  tailored solutions and dedicated support propelled us to new heights",
         Title: 'Alkira Jemin',
         sub: 'Board Member, UNIQA',
         avatar: avatar3,
     },
     {
         id: '04',
-        Des: "Working with Techco was a game-changer for our business. Their  tailored solutions and dedicated support propelled us to new heights",
+        Des: "Working with Devabyte was a game-changer for our business. Their  tailored solutions and dedicated support propelled us to new heights",
         Title: 'Adam Pedro',
         sub: 'Board Member, UNIQA',
         avatar: avatar4,
     },
     {
         id: '05',
-        Des: "Working with Techco was a game-changer for our business. Their  tailored solutions and dedicated support propelled us to new heights",
+        Des: "Working with Devabyte was a game-changer for our business. Their  tailored solutions and dedicated support propelled us to new heights",
         Title: 'Adam Pedro',
         sub: 'Board Member, UNIQA',
         avatar: avatar2,
@@ -170,7 +170,7 @@ const BusinessTestimonial = () => {
                                 <img className="image_wrap" src={abImg1} alt="Business Consulting" />
                                 <div className="funfact_block capsule_layout">
                                     <div className="funfact_icon">
-                                        <img src={abImg2} alt="Techco - SVG Icon Wallet" />
+                                        <img src={abImg2} alt="Devabyte - SVG Icon Wallet" />
                                     </div>
                                     <div className="funfact_content">
                                         <h3 className="funfact_title mb-0">Company Value</h3>
