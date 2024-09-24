@@ -29,7 +29,7 @@ const Footer = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Write to us</h3>
                                 <p className="mb-0">
-                                    Devabyte@gmail.com
+                                    info@devabyte.com
                                 </p>
                             </div>
                         </div>
@@ -204,7 +204,7 @@ const Footer = (props) => {
                         Copyright © 2024 Devabyte, All rights reserved.
                     </p>
                     <p className="copyright_text m-0">
-                        Developed by <Link onClick={ClickHandler} to="/">XpressBuddy</Link>
+                        Developed by <Link onClick={ClickHandler} to="/">Devabyte LLC</Link>
                     </p>
                 </div>
             </div>

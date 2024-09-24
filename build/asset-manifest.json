@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.7ceaae05.css",
-    "main.js": "/static/js/main.fe0a9da0.js",
+    "main.js": "/static/js/main.96d40588.js",
     "static/js/787.506f9f59.chunk.js": "/static/js/787.506f9f59.chunk.js",
+    "static/media/bg_image_1.jpg": "/static/media/bg_image_1.20aa1d614db13b7b52b7.jpg",
+    "static/media/portfolio_item_image_4.jpg": "/static/media/portfolio_item_image_4.ab253d9af5c741785e27.jpg",
     "static/media/bg_image_2.webp": "/static/media/bg_image_2.2dd197e17e5abe70c404.webp",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.1fb710c67dcecf785a61.ttf",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.866bbb7a13a33d21b363.ttf",
@@ -37,7 +39,6 @@
     "static/media/themify.woff?-fvbane": "/static/media/themify.29b39089170885ae2967.woff",
     "static/media/shape_polygon.webp": "/static/media/shape_polygon.ef7d0c80da8167dd8fed.webp",
     "static/media/bg_pattern_4.svg": "/static/media/bg_pattern_4.709b72b190f83ff2887d074996061e03.svg",
-    "static/media/bg_image_1.webp": "/static/media/bg_image_1.dc65bfbf60a77e5a34b2.webp",
     "static/media/about_image_9.webp": "/static/media/about_image_9.00543dd32cbd3311dfeb.webp",
     "static/media/bg_image_5.webp": "/static/media/bg_image_5.aebf24edf67658e00fc5.webp",
     "static/media/business_consulting_hero_image_2.webp": "/static/media/business_consulting_hero_image_2.724c23622b6262b1b2b2.webp",
@@ -82,7 +83,6 @@
     "static/media/blog_post_image_16.webp": "/static/media/blog_post_image_16.384a1e1301e6b613f138.webp",
     "static/media/portfolio_item_image_10.webp": "/static/media/portfolio_item_image_10.5b04a17a7f17f3f54fd1.webp",
     "static/media/portfolio_item_image_11.webp": "/static/media/portfolio_item_image_11.5b04a17a7f17f3f54fd1.webp",
-    "static/media/portfolio_item_image_4.webp": "/static/media/portfolio_item_image_4.5b04a17a7f17f3f54fd1.webp",
     "static/media/portfolio_item_image_5.webp": "/static/media/portfolio_item_image_5.5b04a17a7f17f3f54fd1.webp",
     "static/media/portfolio_item_image_6.webp": "/static/media/portfolio_item_image_6.5b04a17a7f17f3f54fd1.webp",
     "static/media/portfolio_item_image_7.webp": "/static/media/portfolio_item_image_7.5b04a17a7f17f3f54fd1.webp",
@@ -231,11 +231,11 @@
     "static/media/shape_space_5.svg": "/static/media/shape_space_5.4aa7a917403c959900828df4fc177a13.svg",
     "static/media/shape_space_1.svg": "/static/media/shape_space_1.4035dc776f2f8d5a2d7ee956f80f556a.svg",
     "main.7ceaae05.css.map": "/static/css/main.7ceaae05.css.map",
-    "main.fe0a9da0.js.map": "/static/js/main.fe0a9da0.js.map",
+    "main.96d40588.js.map": "/static/js/main.96d40588.js.map",
     "787.506f9f59.chunk.js.map": "/static/js/787.506f9f59.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ceaae05.css",
-    "static/js/main.fe0a9da0.js"
+    "static/js/main.96d40588.js"
   ]
 }

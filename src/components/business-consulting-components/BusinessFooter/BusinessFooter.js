@@ -164,7 +164,7 @@ const BusinessFooter = (props) => {
               Copyright © 2024 Devabyte, All rights reserved.
             </p>
             <p className="copyright_text m-0">
-              Developed by <Link onClick={ClickHandler} to="/" target="_blank">XpressBuddy</Link>
+              Developed by <Link onClick={ClickHandler} to="/" target="_blank">Devabyte LLC</Link>
             </p>
           </div>
         </div>

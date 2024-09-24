@@ -5,7 +5,7 @@ import pImg4 from '../images/case/case_image_1.webp'
 import pImg5 from '../images/case/case_image_2.webp'
 import pImg6 from '../images/case/case_image_3.webp'
 
-import pImg7 from '../images/portfolio/portfolio_item_image_4.webp'
+import pImg7 from '../images/portfolio/portfolio_item_image_4.jpg'
 import pImg8 from '../images/portfolio/portfolio_item_image_5.webp'
 import pImg9 from '../images/portfolio/portfolio_item_image_6.webp'
 import pImg10 from '../images/portfolio/portfolio_item_image_7.webp'
