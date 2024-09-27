@@ -11,6 +11,9 @@
 	transition: transform .5s;
 
 	.site_logo {
+		display: flex;
+		align-items: center;
+
 		.site_link {
 			max-width: 124px;
 		}

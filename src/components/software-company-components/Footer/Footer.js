@@ -321,24 +321,24 @@ const Footer = (props) => {
 
                 <ul className="social_icons_block unordered_list">
                   <li>
-                    <Link onClick={ClickHandler} to="/home_it_solutions">
+                    <a onClick={ClickHandler} target="_blank" href="https://www.facebook.com/devabyte">
                       <i className="fa-brands fa-facebook-f"></i>
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/home_it_solutions">
+                    <a onClick={ClickHandler} target="_blank" href="/home_it_solutions">
                       <i className="fa-brands fa-twitter"></i>
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/home_it_solutions">
+                    <a onClick={ClickHandler} target="_blank" href="https://www.linkedin.com/company/devabyte">
                       <i className="fa-brands fa-linkedin-in"></i>
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/home_it_solutions">
+                    <a onClick={ClickHandler} target="_blank" href="/home_it_solutions">
                       <i className="fa-brands fa-youtube"></i>
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </div>

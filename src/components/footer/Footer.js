@@ -72,9 +72,9 @@ const Footer = (props) => {
                                         <button type="submit"><i className="fa-solid fa-paper-plane"></i></button>
                                     </form>
                                     <ul className="social_links_block unordered_list">
-                                        <li><Link onClick={ClickHandler} to="/">Facebook</Link></li>
-                                        <li><Link onClick={ClickHandler} to="/">Twitter</Link></li>
-                                        <li><Link onClick={ClickHandler} to="/">Linkdin</Link></li>
+                                        <li><a onClick={ClickHandler} target="_blank" href="https://www.facebook.com/devabyte">Facebook</a></li>
+                                        <li><a onClick={ClickHandler} target="_blank" href="/">Twitter</a></li>
+                                        <li><a onClick={ClickHandler} target="_blank" href="https://www.linkedin.com/company/devabyte">Linkdin</a></li>
                                     </ul>
                                 </div>
                             </div>
