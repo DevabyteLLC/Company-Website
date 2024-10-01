@@ -20,7 +20,7 @@ const testimonial = [
         tImg: tImg1,
         Title: 'Amazing software services',
         Des: "The solutions they're providing is helping our business run more smoothly. We've been able to make quick developments with them, meeting our product vision within the timeline we set up. Listen to them because they can give strong advice about how to build good products.",
-        Name: 'Maverick Phoenix',
+        Name: 'Muhammad Mavia',
         sub: 'Board Member, UNIQA',
         country: 'Seattle, Ukraine',
     },
@@ -29,7 +29,7 @@ const testimonial = [
         tImg: tImg2,
         Title: 'Amazing software services',
         Des: "The solutions they're providing is helping our business run more smoothly. We've been able to make quick developments with them, meeting our product vision within the timeline we set up. Listen to them because they can give strong advice about how to build good products.",
-        Name: 'Maverick Phoenix',
+        Name: 'Muhammad Mavia',
         sub: 'Board Member, UNIQA',
         country: 'Seattle, Ukraine',
     },
@@ -38,7 +38,7 @@ const testimonial = [
         tImg: tImg3,
         Title: 'Amazing software services',
         Des: "The solutions they're providing is helping our business run more smoothly. We've been able to make quick developments with them, meeting our product vision within the timeline we set up. Listen to them because they can give strong advice about how to build good products.",
-        Name: 'Maverick Phoenix',
+        Name: 'Muhammad Mavia',
         sub: 'Board Member, UNIQA',
         country: 'Seattle, Ukraine',
     },
@@ -126,7 +126,7 @@ const Testimonial = () => {
                                         <div className="d-md-flex justify-content-md-between">
                                             <div className="review_admin">
                                                 <div className="review_admin_image">
-                                                    <img src={testimonial.tImg} alt="Maverick Phoenix" />
+                                                    <img src={testimonial.tImg} alt="Muhammad Mavia" />
                                                 </div>
                                                 <div className="review_admin_info">
                                                     <h4 className="review_admin_name">{testimonial.Name}</h4>

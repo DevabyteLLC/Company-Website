@@ -71,7 +71,7 @@ const ContactSection = (props) => {
                     <div className="col-lg-8">
                         <div className="instant_contact_form">
                             <div className="small_title">
-                                <i className="fa-solid fa-envelope-open-text"></i>
+                                <i className="fa-solid fa-envelope-open-text"></i>&nbsp;
                                 Let's Connect!
                             </div>
                             <h3 className="form_title">

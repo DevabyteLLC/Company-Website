@@ -30,7 +30,7 @@ const Teams = [
    {
       Id: '4',
       tImg: timg4,
-      name: 'Maverick Phoenix',
+      name: 'Muhammad Mavia',
       slug: 'Maverick-Phoenix',
       title: 'data analyst',
    },
@@ -44,7 +44,7 @@ const Teams = [
    {
       Id: '6',
       tImg: timg4,
-      name: 'Maverick Phoenix',
+      name: 'Muhammad Mavia',
       slug: 'Maverick-Phoenix',
       title: 'data analyst',
    },

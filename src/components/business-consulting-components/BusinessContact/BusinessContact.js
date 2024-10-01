@@ -47,7 +47,7 @@ const BusinessContact = (props) => {
                     <div className="col-lg-7">
                         <div className="instant_contact_form bg-primary shadow-none">
                             <div className="small_title text-white">
-                                <i className="fa-solid fa-envelope-open-text text-white"></i>
+                                <i className="fa-solid fa-envelope-open-text text-white"></i>&nbsp;
                                 Let's Connect!
                             </div>
                             <h3 className="form_title text-white">

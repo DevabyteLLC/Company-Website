@@ -60,15 +60,15 @@ const Header3 = (props) => {
                             <nav className="main_menu navbar navbar-expand-lg">
                                 <div className="main_menu_inner collapse navbar-collapse justify-content-lg-center" id="main_menu_dropdown">
                                     <ul className="main_menu_list unordered_list justify-content-center">
-                                        <li className="dropdown">
-                                            <Link onClick={ClickHandler} className="nav-link" to="/" id="home_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <li>
+                                            <Link onClick={ClickHandler} to="/">
                                                 Home
                                             </Link>
-                                            <ul className="dropdown-menu" aria-labelledby="home_submenu">
-                                                <li><Link onClick={ClickHandler} to="/">IT Solution</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/home_it_solutions">Software Company</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/home_business_consulting">Business Consulting</Link></li>
-                                            </ul>
+                                            {/*<ul className="dropdown-menu" aria-labelledby="home_submenu">*/}
+                                            {/*    <li><Link onClick={ClickHandler} to="/">IT Solution</Link></li>*/}
+                                            {/*    <li><Link onClick={ClickHandler} to="/home_it_solutions">Software Company</Link></li>*/}
+                                            {/*    <li><Link onClick={ClickHandler} to="/home_business_consulting">Business Consulting</Link></li>*/}
+                                            {/*</ul>*/}
                                         </li>
                                         <li className="dropdown">
                                             <Link onClick={ClickHandler} className="nav-link" to="/" id="company_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -119,19 +119,19 @@ const Header3 = (props) => {
                                                                             </span>
                                                                         </Link>
                                                                     </div>
-                                                                    <div className="col-lg-3 col-md-6">
-                                                                        <Link onClick={ClickHandler} className="iconbox_block_2" to="/portfolio_details/Explore-Our-IT-Solutions">
-                                                                            <span className="icon_title_wrap">
-                                                                                <small className="iconbox_icon">
-                                                                                    <img src={icon4} alt="Event Tag SVG Icon" />
-                                                                                </small>
-                                                                                <small className="iconbox_title">Portfolio Details</small>
-                                                                            </span>
-                                                                            <span className="description mb-0">
-                                                                                Explore our work overview
-                                                                            </span>
-                                                                        </Link>
-                                                                    </div>
+                                                                    {/*<div className="col-lg-3 col-md-6">*/}
+                                                                    {/*    <Link onClick={ClickHandler} className="iconbox_block_2" to="/portfolio_details/Explore-Our-IT-Solutions">*/}
+                                                                    {/*        <span className="icon_title_wrap">*/}
+                                                                    {/*            <small className="iconbox_icon">*/}
+                                                                    {/*                <img src={icon4} alt="Event Tag SVG Icon" />*/}
+                                                                    {/*            </small>*/}
+                                                                    {/*            <small className="iconbox_title">Portfolio Details</small>*/}
+                                                                    {/*        </span>*/}
+                                                                    {/*        <span className="description mb-0">*/}
+                                                                    {/*            Explore our work overview*/}
+                                                                    {/*        </span>*/}
+                                                                    {/*    </Link>*/}
+                                                                    {/*</div>*/}
                                                                     <div className="col-lg-3 col-md-6">
                                                                         <Link onClick={ClickHandler} className="iconbox_block_2" to="/team">
                                                                             <span className="icon_title_wrap">
@@ -145,19 +145,19 @@ const Header3 = (props) => {
                                                                             </span>
                                                                         </Link>
                                                                     </div>
-                                                                    <div className="col-lg-3 col-md-6">
-                                                                        <Link onClick={ClickHandler} className="iconbox_block_2" to="/team-single/Atticus-Sterling">
-                                                                            <span className="icon_title_wrap">
-                                                                                <small className="iconbox_icon">
-                                                                                    <img src={icon6} alt="Users SVG Icon" />
-                                                                                </small>
-                                                                                <small className="iconbox_title">Team Details</small>
-                                                                            </span>
-                                                                            <span className="description mb-0">
-                                                                                We are friendly Join our team
-                                                                            </span>
-                                                                        </Link>
-                                                                    </div>
+                                                                    {/*<div className="col-lg-3 col-md-6">*/}
+                                                                    {/*    <Link onClick={ClickHandler} className="iconbox_block_2" to="/team-single/Atticus-Sterling">*/}
+                                                                    {/*        <span className="icon_title_wrap">*/}
+                                                                    {/*            <small className="iconbox_icon">*/}
+                                                                    {/*                <img src={icon6} alt="Users SVG Icon" />*/}
+                                                                    {/*            </small>*/}
+                                                                    {/*            <small className="iconbox_title">Team Details</small>*/}
+                                                                    {/*        </span>*/}
+                                                                    {/*        <span className="description mb-0">*/}
+                                                                    {/*            We are friendly Join our team*/}
+                                                                    {/*        </span>*/}
+                                                                    {/*    </Link>*/}
+                                                                    {/*</div>*/}
                                                                     <div className="col-lg-3 col-md-6">
                                                                         <Link onClick={ClickHandler} className="iconbox_block_2" to="/service">
                                                                             <span className="icon_title_wrap">
@@ -171,19 +171,19 @@ const Header3 = (props) => {
                                                                             </small>
                                                                         </Link>
                                                                     </div>
-                                                                    <div className="col-lg-3 col-md-6">
-                                                                        <Link onClick={ClickHandler} className="iconbox_block_2" to="/service-single/IT-Management-Services">
-                                                                            <span className="icon_title_wrap">
-                                                                                <small className="iconbox_icon">
-                                                                                    <img src={icon7} alt="Pen SVG Icon" />
-                                                                                </small>
-                                                                                <small className="iconbox_title">Service Details</small>
-                                                                            </span>
-                                                                            <small className="description mb-0">
-                                                                                Happy to help you!
-                                                                            </small>
-                                                                        </Link>
-                                                                    </div>
+                                                                    {/*<div className="col-lg-3 col-md-6">*/}
+                                                                    {/*    <Link onClick={ClickHandler} className="iconbox_block_2" to="/service-single/IT-Management-Services">*/}
+                                                                    {/*        <span className="icon_title_wrap">*/}
+                                                                    {/*            <small className="iconbox_icon">*/}
+                                                                    {/*                <img src={icon7} alt="Pen SVG Icon" />*/}
+                                                                    {/*            </small>*/}
+                                                                    {/*            <small className="iconbox_title">Service Details</small>*/}
+                                                                    {/*        </span>*/}
+                                                                    {/*        <small className="description mb-0">*/}
+                                                                    {/*            Happy to help you!*/}
+                                                                    {/*        </small>*/}
+                                                                    {/*    </Link>*/}
+                                                                    {/*</div>*/}
                                                                 </div>
                                                             </div>
                                                             <ul className="btns_group p-0 unordered_list justify-content-start">
@@ -238,7 +238,7 @@ const Header3 = (props) => {
                                                                         <img src={icon10} alt="Site Author" />
                                                                     </div>
                                                                     <div className="author_box_content">
-                                                                        <h3 className="author_name text-white">Maverick Phoenix</h3>
+                                                                        <h3 className="author_name text-white">Muhammad Mavia</h3>
                                                                         <span className="author_designation text-white">CEO At Devabyte</span>
                                                                     </div>
                                                                     <div className="quote_icon">

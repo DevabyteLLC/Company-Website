@@ -3,7 +3,7 @@ import Header from '../../components/header/Header';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
-import aImg from '../../images/about/about_image_3.webp'
+import aImg from '../../images/about/about_image_3.jpg'
 import aImg2 from '../../images/about/about_image_4.webp'
 import ModalVideo from 'react-modal-video'
 import PolicySection from './Policy';
