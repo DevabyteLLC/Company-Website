@@ -2,6 +2,48 @@
     <url>
         <loc>https://devabyte.com</loc>
         <lastmod>2024-08-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://devabyte.com/portfolio</loc>
+        <lastmod>2024-08-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://devabyte.com/blog</loc>
+        <lastmod>2024-08-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://devabyte.com/service</loc>
+        <lastmod>2024-08-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://devabyte.com/about</loc>
+        <lastmod>2024-08-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://devabyte.com/contact</loc>
+        <lastmod>2024-08-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://devabyte.com/team</loc>
+        <lastmod>2024-08-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://devabyte.com/careers</loc>
+        <lastmod>2024-08-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
