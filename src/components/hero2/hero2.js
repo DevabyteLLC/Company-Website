@@ -25,7 +25,7 @@ const Hero2 = (props) => {
                                 We Help Companies in <mark>Digitizing</mark> Their Businesses.
                             </h1>
                             <p>
-                                In today's rapidly evolving digital landscape, staying ahead of the curve is essential for businesses aiming to thrive and succeed.
+                                In today’s fast-paced digital world, staying ahead is crucial for businesses striving to succeed and grow.
                             </p>
                             <ul className="step_list text-white unordered_list_block">
                                 <li>Focus on quality first</li>
@@ -46,7 +46,7 @@ const Hero2 = (props) => {
                                             <i className="fa-solid fa-phone-volume"></i>
                                         </span>
                                         <span className="hotline_content">
-                                            <small>CONTACT US DAILY</small>
+                                            <small>Talk with us?</small>
                                             <strong className="text-white">+92 (322) 2696104</strong>
                                         </span>
                                     </a>

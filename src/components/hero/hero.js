@@ -26,7 +26,7 @@ const Hero = () => {
                             <ul className="btns_group unordered_list p-0 justify-content-start">
                                 <li>
                                     <Link className="btn" to="/pricing">
-                                        <span className="btn_label" data-text="Get Started">Get Started</span>
+                                        <span className="btn_label" data-text="Get a Quote">Get a Quote</span>
                                         <span className="btn_icon">
                                             <i className="fa-solid fa-arrow-up-right"></i>
                                         </span>

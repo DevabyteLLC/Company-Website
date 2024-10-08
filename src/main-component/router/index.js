@@ -14,6 +14,7 @@ import ServiceSinglePage from '../ServiceSinglePage/ServiceSinglePage';
 import BlogPage from '../BlogPage/BlogPage';
 import BlogDetails from '../BlogDetails/BlogDetails';
 import ContactPage from '../ContactPage/ContactPage';
+import CareerPage from "../../components/career/CareerPage";
 
 const AllRoute = () => {
 
@@ -36,6 +37,7 @@ const AllRoute = () => {
           <Route path="blog" element={<BlogPage />} />
           <Route path="blog-single/:slug" element={<BlogDetails />} />
           <Route path="contact" element={<ContactPage />} />
+          <Route path="careers" element={<CareerPage />} />
         </Routes>
       </BrowserRouter>
 

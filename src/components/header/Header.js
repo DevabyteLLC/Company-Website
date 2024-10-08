@@ -516,7 +516,7 @@ const Header = (props) => {
                                 </li>
                                 <li>
                                     <Link onClick={ClickHandler} className="btn btn-outline-light" to="/pricing">
-                                        <span className="btn_label" data-text="Get Started">Get Started</span>
+                                        <span className="btn_label" data-text="Get a Quote">Get a Quote</span>
                                         <span className="btn_icon">
                                             <i className="fa-solid fa-arrow-up-right"></i>
                                         </span>

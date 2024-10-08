@@ -26,7 +26,7 @@ const Hero3 = (props) => {
                                 Navigating the Path to Success: Insightful Consulting for Thriving Businesses
                             </p>
                             <Link onClick={ClickHandler} className="creative_btn" to="/pricing">
-                                <span className="btn_label bg-primary">Get Started Today</span>
+                                <span className="btn_label bg-primary">Get a Quote Today</span>
                                 <span className="btn_icon">
                                     <i className="bg-primary fa-solid fa-arrow-up-right"></i>
                                     <i className="bg-primary fa-solid fa-arrow-up-right"></i>

@@ -49,7 +49,7 @@ const ConsultingService = (props) => {
 
                 <div className="btns_group pb-0">
                     <Link onClick={ClickHandler} className="creative_btn" to="/service">
-                        <span className="btn_label bg-primary">Get Started Today</span>
+                        <span className="btn_label bg-primary">Get a Quote Today</span>
                         <span className="btn_icon">
                             <i className="bg-primary fa-solid fa-arrow-up-right"></i>
                             <i className="bg-primary fa-solid fa-arrow-up-right"></i>

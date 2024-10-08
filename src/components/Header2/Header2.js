@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'
+import React, {useEffect, useState} from 'react';
+import {Link} from 'react-router-dom'
 import icon1 from '../../images/icons/icon_wifi.svg'
 import icon2 from '../../images/icons/icon_dollar_2.svg'
 import icon3 from '../../images/icons/icon_chart.svg'
-import icon4 from '../../images/icons/icon_tag_2.svg'
 import icon5 from '../../images/icons/icon_user_2.svg'
-import icon6 from '../../images/icons/icon_users.svg'
 import icon7 from '../../images/icons/icon_pen.svg'
 import icon8 from '../../images/clients/client_logo_9.webp'
 import icon9 from '../../images/clients/client_logo_10.webp'
@@ -53,8 +51,8 @@ const Header2 = (props) => {
                         <div className="col-xl-3 col-lg-2 col-5">
                             <div className="site_logo">
                                 <Link onClick={ClickHandler} className="site_link" to="/">
-                                    <img src={logo} alt="Site Logo – Devabyte – IT Solutions & Technology, Business Consulting, Software Company Site Template" />
-                                    <img src={logo2} alt="Site Logo – Devabyte – IT Solutions & Technology, Business Consulting, Software Company Site Template" />
+                                    <img src={logo} alt="Site Logo – Devabyte – IT Solutions & Technology, Business Consulting, Software Company Site Template"/>
+                                    <img src={logo2} alt="Site Logo – Devabyte – IT Solutions & Technology, Business Consulting, Software Company Site Template"/>
                                 </Link>
                             </div>
                         </div>
@@ -86,7 +84,7 @@ const Header2 = (props) => {
                                                                         <Link onClick={ClickHandler} className="iconbox_block_2" to="/about">
                                                                             <span className="icon_title_wrap">
                                                                                 <small className="iconbox_icon">
-                                                                                    <img src={icon1} alt="Wifi SVG Icon" />
+                                                                                    <img src={icon1} alt="Wifi SVG Icon"/>
                                                                                 </small>
                                                                                 <small className="iconbox_title">About Us</small>
                                                                             </span>
@@ -99,7 +97,7 @@ const Header2 = (props) => {
                                                                         <Link onClick={ClickHandler} className="iconbox_block_2" to="/pricing">
                                                                             <span className="icon_title_wrap">
                                                                                 <small className="iconbox_icon">
-                                                                                    <img src={icon2} alt="Dollar SVG Icon" />
+                                                                                    <img src={icon2} alt="Dollar SVG Icon"/>
                                                                                 </small>
                                                                                 <small className="iconbox_title">Our Pricing</small>
                                                                             </span>
@@ -112,7 +110,7 @@ const Header2 = (props) => {
                                                                         <Link onClick={ClickHandler} className="iconbox_block_2" to="/portfolio">
                                                                             <span className="icon_title_wrap">
                                                                                 <small className="iconbox_icon">
-                                                                                    <img src={icon3} alt="Chart SVG Icon" />
+                                                                                    <img src={icon3} alt="Chart SVG Icon"/>
                                                                                 </small>
                                                                                 <small className="iconbox_title">Portfolio</small>
                                                                             </span>
@@ -138,7 +136,7 @@ const Header2 = (props) => {
                                                                         <Link onClick={ClickHandler} className="iconbox_block_2" to="/team">
                                                                             <span className="icon_title_wrap">
                                                                                 <small className="iconbox_icon">
-                                                                                    <img src={icon5} alt="User Check SVG Icon" />
+                                                                                    <img src={icon5} alt="User Check SVG Icon"/>
                                                                                 </small>
                                                                                 <small className="iconbox_title">Team</small>
                                                                             </span>
@@ -164,7 +162,7 @@ const Header2 = (props) => {
                                                                         <Link onClick={ClickHandler} className="iconbox_block_2" to="/service">
                                                                             <span className="icon_title_wrap">
                                                                                 <small className="iconbox_icon">
-                                                                                    <img src={icon7} alt="Pen SVG Icon" />
+                                                                                    <img src={icon7} alt="Pen SVG Icon"/>
                                                                                 </small>
                                                                                 <small className="iconbox_title">Services</small>
                                                                             </span>
@@ -200,7 +198,7 @@ const Header2 = (props) => {
                                                                 <li>
                                                                     <div className="review_short_info_2">
                                                                         <div className="review_admin_logo">
-                                                                            <img src={icon8} alt="Client Logo" />
+                                                                            <img src={icon8} alt="Client Logo"/>
                                                                         </div>
                                                                         <div className="review_info_content">
                                                                             <ul className="rating_block unordered_list">
@@ -217,7 +215,7 @@ const Header2 = (props) => {
                                                                 <li>
                                                                     <div className="review_short_info_2">
                                                                         <div className="review_admin_logo">
-                                                                            <img src={icon9} alt="Client Logo" />
+                                                                            <img src={icon9} alt="Client Logo"/>
                                                                         </div>
                                                                         <div className="review_info_content">
                                                                             <ul className="rating_block unordered_list">
@@ -237,33 +235,24 @@ const Header2 = (props) => {
                                                             <div className="site_author bg-primary">
                                                                 <div className="author_box">
                                                                     <div className="author_image bg-light">
-                                                                        <img src={icon10} alt="Site Author" />
+                                                                        <img src={icon10} alt="Site Author"/>
                                                                     </div>
                                                                     <div className="author_box_content">
                                                                         <h3 className="author_name text-white">Muhammad Mavia</h3>
                                                                         <span className="author_designation text-white">CEO At Devabyte</span>
                                                                     </div>
                                                                     <div className="quote_icon">
-                                                                        <img src={icon11} alt="Quote Icon" />
+                                                                        <img src={icon11} alt="Quote Icon"/>
                                                                     </div>
                                                                 </div>
                                                                 <p className="mb-0 text-white">
-                                                                    As a CEO at Devabyte  I have been voice crying in the wilderness,  trying to make requirements clear, use every minute to deliver the  result, and not reinvent the wheel. Here at Devabyte, I made that possible  for the clients.
+                                                                    As a CEO at Devabyte I have been voice crying in the wilderness, trying to make requirements clear, use every minute to deliver the result, and not reinvent the wheel. Here at Devabyte, I made that possible for the clients.
                                                                 </p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </li>
-                                        <li className="dropdown">
-                                            <Link onClick={ClickHandler} className="nav-link" to="/" id="portfolio_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Portfolio
-                                            </Link>
-                                            <ul className="dropdown-menu" aria-labelledby="portfolio_submenu">
-                                                <li><Link onClick={ClickHandler} to="/portfolio">Portfolio</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/portfolio_details/Explore-Our-IT-Solutions">Portfolio Details</Link></li>
-                                            </ul>
                                         </li>
                                         <li className="dropdown">
                                             <Link onClick={ClickHandler} className="nav-link" to="/" id="services_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -466,7 +455,7 @@ const Header2 = (props) => {
                                                             <div className="megamenu_case bg-primary">
                                                                 <h3>Computer Software</h3>
                                                                 <h4>Astarte Medical</h4>
-                                                                <img src={cases} alt="Case" />
+                                                                <img src={cases} alt="Case"/>
                                                                 <Link onClick={ClickHandler} className="btn" to="/portfolio">
                                                                     <span className="btn_label" data-text="Read Case">Read Case</span>
                                                                     <span className="btn_icon">
@@ -479,24 +468,34 @@ const Header2 = (props) => {
                                                 </div>
                                             </div>
                                         </li>
-                                        <li className="dropdown">
-                                            <Link onClick={ClickHandler} className="nav-link" to="/" id="pages_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Pages
+                                        {/*<li>*/}
+                                        {/*    <Link onClick={ClickHandler} to="/portfolio">*/}
+                                        {/*        Portfolio*/}
+                                        {/*    </Link>*/}
+                                        {/*</li>*/}
+                                        <li>
+                                            <Link onClick={ClickHandler} to="/careers">
+                                                Careers
                                             </Link>
-                                            <ul className="dropdown-menu" aria-labelledby="pages_submenu">
-                                                <li><Link onClick={ClickHandler} to="/about">About Us</Link></li>
-                                                <li className="dropdown">
-                                                    <Link onClick={ClickHandler} className="nav-link" to="/" id="blog_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                        Blogs
-                                                    </Link>
-                                                    <ul className="dropdown-menu" aria-labelledby="blog_submenu">
-                                                        <li><Link onClick={ClickHandler} to="/blog">Our Blogs</Link></li>
-                                                        <li><Link onClick={ClickHandler} to="/blog-single/How-Our-Software-Solutions-Drive-Insights.">Blog Details</Link></li>
-                                                    </ul>
-                                                </li>
-                                                <li><Link onClick={ClickHandler} to="/contact">Help Center</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/">Careers <small className="badge bg-danger-subtle text-danger">We’re Hiring</small></Link></li>
-                                            </ul>
+                                        </li>
+                                        <li>
+                                            <Link onClick={ClickHandler} to="/blog">
+                                                Blogs
+                                            </Link>
+                                            {/*<ul className="dropdown-menu" aria-labelledby="pages_submenu">*/}
+                                            {/*    <li><Link onClick={ClickHandler} to="/about">About Us</Link></li>*/}
+                                            {/*    <li className="dropdown">*/}
+                                            {/*        <Link onClick={ClickHandler} className="nav-link" to="/" id="blog_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">*/}
+                                            {/*            Blogs*/}
+                                            {/*        </Link>*/}
+                                            {/*        <ul className="dropdown-menu" aria-labelledby="blog_submenu">*/}
+                                            {/*            <li><Link onClick={ClickHandler} to="/blog">Our Blogs</Link></li>*/}
+                                            {/*            <li><Link onClick={ClickHandler} to="/blog-single/How-Our-Software-Solutions-Drive-Insights.">Blog Details</Link></li>*/}
+                                            {/*        </ul>*/}
+                                            {/*    </li>*/}
+                                            {/*    <li><Link onClick={ClickHandler} to="/contact">Help Center</Link></li>*/}
+                                            {/*    <li><Link onClick={ClickHandler} to="/">Careers <small className="badge bg-danger-subtle text-danger">We’re Hiring</small></Link></li>*/}
+                                            {/*</ul>*/}
                                         </li>
                                         <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
                                     </ul>
@@ -512,7 +511,7 @@ const Header2 = (props) => {
                                 </li>
                                 <li>
                                     <Link onClick={ClickHandler} className="btn btn-primary" to="/pricing">
-                                        <span className="btn_label" data-text="Get Started">Get Started</span>
+                                        <span className="btn_label" data-text="Get a Quote">Get a Quote</span>
                                         <span className="btn_icon">
                                             <i className="fa-solid fa-arrow-up-right"></i>
                                         </span>
@@ -527,7 +526,7 @@ const Header2 = (props) => {
                         <div className="xb-header-menu-scroll">
                             <div className="xb-menu-close xb-hide-xl xb-close" onClick={() => setMobailState(!mobailActive)}></div>
                             <nav className="xb-header-nav">
-                                <MobileMenu />
+                                <MobileMenu/>
                             </nav>
                         </div>
                     </div>

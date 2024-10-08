@@ -89,7 +89,7 @@ const About = (props) => {
                   Devabyte <mark>Mission & Goal</mark>
                 </h2>
                 <p className="heading_description mb-0">
-                  At Devabyte, our mission is to empower businesses through innovative software solutions that streamline operations, foster growth, and drive success. With a commitment to excellence and customer satisfaction we strive.
+                  At Devabyte, our mission is to empower businesses with innovative software solutions that streamline processes, promote growth, and fuel success. Committed to excellence and customer satisfaction, we continually strive to make a difference.
                 </p>
               </div>
             </div>

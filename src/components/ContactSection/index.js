@@ -11,7 +11,7 @@ const ContactSection = (props) => {
         <section className="contact_section section_space bg-light">
             <div className="container">
                 <div className="contact_info_box row">
-                    <div className="col-lg-3 col-md-6 col-sm-6">
+                    <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="iconbox_block text-center">
                             <div className="iconbox_icon">
                                 <img src={icon1} alt="Map Mark SVG Icon" />
@@ -24,7 +24,7 @@ const ContactSection = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-6">
+                    <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="iconbox_block text-center">
                             <div className="iconbox_icon">
                                 <img src={icon2} alt="Calling SVG Icon" />
@@ -32,11 +32,11 @@ const ContactSection = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Contact</h3>
                                 <p className="mb-0">+92 (322) 2696104</p>
-                                {/*<div className="mb-0"></div>*/}
+                                <div className="mb-0">&nbsp;</div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-6">
+                    <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="iconbox_block text-center">
                             <div className="iconbox_icon">
                                 <img src={icon3} alt="User Check SVG Icon" />
@@ -44,19 +44,7 @@ const ContactSection = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Email</h3>
                                 <p className="mb-0">info@devabyte.com</p>
-                                <p className="mb-0">gmail.@example.com</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-6">
-                        <div className="iconbox_block text-center">
-                            <div className="iconbox_icon">
-                                <img src={icon4} alt="Calendar SVG Icon" />
-                            </div>
-                            <div className="iconbox_content">
-                                <h3 className="iconbox_title">Visit Between</h3>
-                                <p className="mb-0">Mon - Sat: 8.00-5.00</p>
-                                <p className="mb-0">Sunday: Closed</p>
+                                <p className="mb-0">help@devabyte.com</p>
                             </div>
                         </div>
                     </div>
