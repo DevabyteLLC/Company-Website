@@ -6,6 +6,7 @@ import PageTitle from '../../components/pagetitle/PageTitle';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import Footer from '../../components/footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
+import Header2 from "../../components/Header2/Header2";
 
 const PortfolioPage = (props) => {
 
@@ -25,7 +26,7 @@ const PortfolioPage = (props) => {
 
     return (
         <Fragment>
-            <Header />
+            <Header2 />
             <main className="page_content about-page">
                 <PageTitle pageTitle={'Our Portfolio'} pagesub={'Portfolio 😍'} pageTop={'Our'} />
                 <section className="portfolio_section section_space bg-light">

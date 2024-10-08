@@ -8,6 +8,7 @@ import CtaSection from '../../components/CtaSection/CtaSection';
 import srImg from '../../images/services/service_image_8.webp' 
 import ServiceSection from '../../components/ServiceSection/ServiceSection';
 import WhyUs from '../AboutUsPage/WhyUs';
+import Header2 from "../../components/Header2/Header2";
 
 
 const ServicePage = (props) => {
@@ -17,7 +18,7 @@ const ServicePage = (props) => {
     }
     return (
         <Fragment>
-            <Header />
+            <Header2 />
             <main className="page_content about-page">
                 <PageTitle pageTitle={'Our Services'} pagesub={'Services 😍'} pageTop={'Our Main'} />
                 <section className="about_section section_space bg-light">

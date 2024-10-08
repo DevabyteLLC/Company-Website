@@ -9,6 +9,7 @@ import CtaSection from '../../components/CtaSection/CtaSection';
 import PolicySection from './Policy';
 import offerBanner from '../../images/icons/best_offer.svg.svg';
 import PartnerSection from '../../components/PartnerSection';
+import Header2 from "../../components/Header2/Header2";
 
 
 const PricingPage = (props) => {
@@ -24,7 +25,7 @@ const PricingPage = (props) => {
 
     return (
         <Fragment>
-            <Header />
+            <Header2 />
             <main className="page_content about-page">
                 <PageTitle pageTitle={'Pricing Plan'} pagesub={'Pricing 😍'} pageTop={'Our'} />
                 <PolicySection />

@@ -12,6 +12,7 @@ import sImg1 from '../../images/icons/icon_facebook.svg'
 import sImg2 from '../../images/icons/icon_twitter_x.svg'
 import sImg3 from '../../images/icons/icon_linkedin.svg'
 import sImg4 from '../../images/icons/icon_instagram.svg'
+import Header2 from "../../components/Header2/Header2";
 
 const TeamSinglePage = (props) => {
     const { slug } = useParams()
@@ -24,7 +25,7 @@ const TeamSinglePage = (props) => {
 
     return (
         <Fragment>
-            <Header />
+            <Header2 />
             <main className="page_content about-page">
                 <PageTitle pageTitle={TeamDetails.name} pagesub={'Details 😍'} pageTop={'Team'} />
                 <section className="team_details_section section_space bg-light">

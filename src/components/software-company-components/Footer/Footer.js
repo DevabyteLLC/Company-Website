@@ -336,7 +336,7 @@ const Footer = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a onClick={ClickHandler} target="_blank" href="/home_it_solutions">
+                    <a onClick={ClickHandler} target="_blank" href="https://www.youtube.com/@Devabyte">
                       <i className="fa-brands fa-youtube"></i>
                     </a>
                   </li>

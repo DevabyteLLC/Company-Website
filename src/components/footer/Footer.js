@@ -40,7 +40,7 @@ const Footer = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title"> Call Us (USA)</h3>
                                 <p className="mb-0">
-                                    +(1) 1230 452 8597
+                                    +92 (322) 2696104
                                 </p>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ const Footer = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Our Office</h3>
                                 <p className="mb-0">
-                                    Waterloo, Park, Australia
+                                    Office 504, Grace Tower, Nazimabad, Karachi, PK
                                 </p>
                             </div>
                         </div>

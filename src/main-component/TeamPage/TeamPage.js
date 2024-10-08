@@ -11,6 +11,8 @@ import sImg1 from '../../images/icons/icon_facebook.svg'
 import sImg2 from '../../images/icons/icon_twitter_x.svg'
 import sImg3 from '../../images/icons/icon_linkedin.svg'
 import sImg4 from '../../images/icons/icon_instagram.svg'
+import Header2 from "../../components/Header2/Header2";
+import Header3 from "../../components/header3/Header3";
 
 const TeamPage = (props) => {
 
@@ -19,7 +21,7 @@ const TeamPage = (props) => {
     }
     return (
         <Fragment>
-            <Header />
+            <Header2 />
             <main className="page_content about-page">
                 <PageTitle pageTitle={'Team Member'} pagesub={'Members 😍'} pageTop={'Team'} />
                 <section className="about_section section_space bg-light">

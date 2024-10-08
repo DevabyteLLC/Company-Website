@@ -12,6 +12,7 @@ import BlogSection from '../../components/BlogSection/BlogSection';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
+import Header2 from "../../components/Header2/Header2";
 
 
 const HomePage = () => {
@@ -19,7 +20,7 @@ const HomePage = () => {
     return (
         <Fragment>
             <div>
-                <Header />
+                <Header2 />
                 <main className="page_content">
                     <Hero />
                     <FeaturesSection />

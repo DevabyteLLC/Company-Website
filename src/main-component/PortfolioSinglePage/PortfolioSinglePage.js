@@ -9,6 +9,7 @@ import Footer from '../../components/footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import psImg from '../../images/portfolio/portfolio_details_image_1.webp'
 import icon from '../../images/icons/icon_check_3.svg'
+import Header2 from "../../components/Header2/Header2";
 
 
 const PortfolioSinglePage = (props) => {
@@ -21,7 +22,7 @@ const PortfolioSinglePage = (props) => {
 
     return (
         <Fragment>
-            <Header />
+            <Header2 />
             <main className="page_content about-page">
                 <PageTitle pageTitle={PortfolioDetails.title} pagesub={'Details 😃'} pageTop={'Portfolio'} />
                 <section className="portfolio_details_section section_space bg-light">

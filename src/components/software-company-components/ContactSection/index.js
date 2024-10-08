@@ -24,11 +24,11 @@ const ContactSection = (props) => {
                             </div>
                             <ul className="contact_method_list unordered_list_block">
                                 <li>
-                                    <a href="tel:+8801680636189">
+                                    <a href="tel:+923222696104">
                                         <span className="icon">
                                             <i className="fa-solid fa-phone-volume"></i>
                                         </span>
-                                        <span className="text">+880-1680-6361-89</span>
+                                        <span className="text">+92 (322) 2696104</span>
                                     </a>
                                 </li>
                                 <li>
@@ -44,7 +44,7 @@ const ContactSection = (props) => {
                                         <span className="icon">
                                             <i className="fa-solid fa-location-dot"></i>
                                         </span>
-                                        <span className="text">Sunshine Business Park</span>
+                                        <span className="text">Office 504, Grace Tower, Nazimabad, Karachi, PK</span>
                                     </a>
                                 </li>
                             </ul>

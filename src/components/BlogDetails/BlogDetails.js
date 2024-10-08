@@ -389,7 +389,7 @@ const BlogSingle = (props) => {
                                     <div className="col-md-6">
                                         <div className="form-group">
                                             <label className="input_title" htmlFor="input_email">Your Email <sup className="text-primary">*</sup></label>
-                                            <input id="input_email" className="form-control" type="email" name="email" placeholder="Devabyte@example.com" required />
+                                            <input id="input_email" className="form-control" type="email" name="email" placeholder="info@devabyte.com" required />
                                         </div>
                                     </div>
                                     <div className="col-12">

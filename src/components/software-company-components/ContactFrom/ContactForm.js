@@ -71,7 +71,7 @@ const ContactForm = (props) => {
                             className="form-control"
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
-                            placeholder="Your Enter" />
+                            placeholder="Your Email" />
                         {validator.message('email', forms.email, 'required|email')}
                     </div>
                 </div>

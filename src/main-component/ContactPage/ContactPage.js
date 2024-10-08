@@ -5,12 +5,13 @@ import Scrollbar from '../../components/scrollbar/scrollbar';
 import Footer from '../../components/footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import ContactSection from '../../components/ContactSection';
+import Header2 from "../../components/Header2/Header2";
 
 const ContactPage = (props) => {
 
     return (
         <Fragment>
-            <Header />
+            <Header2 />
             <main className="page_content about-page">
                 <PageTitle pageTitle={'Contact Us'} pagesub={'Us 😍'} pageTop={'Contact'} />
                 <ContactSection />

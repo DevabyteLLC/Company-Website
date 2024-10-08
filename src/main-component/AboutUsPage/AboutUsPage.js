@@ -11,6 +11,7 @@ import WhyUs from './WhyUs';
 import FeaturesSection from '../../components/FeaturesSection/FeaturesSection';
 import TeamSection from '../../components/TeamSection/TeamSection';
 import CtaSection from '../../components/CtaSection/CtaSection';
+import Header2 from "../../components/Header2/Header2";
 
 
 const AboutUsPage = (props) => {
@@ -18,7 +19,7 @@ const AboutUsPage = (props) => {
     const [isOpen, setOpen] = useState(false)
     return (
         <Fragment>
-            <Header />
+            <Header2 />
             <main className="page_content about-page">
                 <PageTitle pageTitle={'About Us'} pagesub={'More Devabyte 😃'} pageTop={'About'}/>
                 <section className="intro_about_section section_space bg-light">

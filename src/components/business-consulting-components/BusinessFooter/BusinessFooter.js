@@ -43,7 +43,7 @@ const BusinessFooter = (props) => {
                       </a>
                     </li>
                     <li>
-                      <a onClick={ClickHandler} target="_blank" href="/home_business_consulting">
+                      <a onClick={ClickHandler} target="_blank" href="https://www.youtube.com/@Devabyte">
                         <i className="fa-brands fa-youtube"></i>
                       </a>
                     </li>
@@ -74,9 +74,9 @@ const BusinessFooter = (props) => {
                       <h3 className="footer_info_title">Call Us:</h3>
                       <ul className="icon_list unordered_list_block">
                         <li>
-                          <a href="tel:+15733434096">
+                          <a href="tel:+923222696104">
                             <span className="icon_list_text">
-                              +1 573 343 4096
+                              +92 (322) 2696104
                             </span>
                           </a>
                         </li>

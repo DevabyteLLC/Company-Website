@@ -7,6 +7,7 @@ import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import BlogSingle from '../../components/BlogDetails/BlogDetails';
+import Header2 from "../../components/Header2/Header2";
 
 
 const BlogDetails = (props) => {
@@ -16,7 +17,7 @@ const BlogDetails = (props) => {
     const BlogDetails = blogs.find(item => item.slug === slug)
     return (
         <Fragment>
-            <Header />
+            <Header2 />
             <main className="page_content about-page">
                 <PageTitle pageTitle={BlogDetails.title} pagesub={'Details 😍'} pageTop={'Blog'}/>
                 <BlogSingle/>

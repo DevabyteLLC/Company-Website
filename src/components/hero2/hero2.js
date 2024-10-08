@@ -41,13 +41,13 @@ const Hero2 = (props) => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="hotline_block" href="tel:+420318568511">
+                                    <a className="hotline_block" href="tel:+923222696104">
                                         <span className="hotline_icon">
                                             <i className="fa-solid fa-phone-volume"></i>
                                         </span>
                                         <span className="hotline_content">
                                             <small>CONTACT US DAILY</small>
-                                            <strong className="text-white">(+420) 318 568 511</strong>
+                                            <strong className="text-white">+92 (322) 2696104</strong>
                                         </span>
                                     </a>
                                 </li>

@@ -52,7 +52,7 @@ const ContactForm = (props) => {
                             className="form-control"
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
-                            placeholder="Goladria Gomez" />
+                            placeholder="Your Full Name" />
                         {validator.message('name', forms.name, 'required|alpha_space')}
                     </div>
                 </div>
@@ -67,7 +67,7 @@ const ContactForm = (props) => {
                             className="form-control"
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
-                            placeholder="Devabyte@example.com" />
+                            placeholder="Your Email Address" />
                         {validator.message('email', forms.email, 'required|email')}
                     </div>
                 </div>
@@ -81,7 +81,7 @@ const ContactForm = (props) => {
                             className="form-control"
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
-                            placeholder="+8250-3560 6565" />
+                            placeholder="Your Phone Number" />
                         {validator.message('phone', forms.phone, 'required|phone')}
                     </div>
                 </div>

@@ -13,6 +13,7 @@ import srImg2 from '../../images/services/service_details_image_2.webp'
 import srImg3 from '../../images/services/service_details_image_3.webp'
 import srImg4 from '../../images/services/service_details_image_4.webp'
 import icon from '../../images/icons/icon_check_3.svg'
+import Header2 from "../../components/Header2/Header2";
 
 
 const ServiceSinglePage = (props) => {
@@ -25,7 +26,7 @@ const ServiceSinglePage = (props) => {
 
     return (
         <Fragment>
-            <Header />
+            <Header2 />
             <main className="page_content service-single-page">
                 <PageTitle pageTitle={ServiceDetails.title} pagesub={'Details 😍'} pageTop={'Services'} />
                 <section className="service_details_section section_space bg-light">
